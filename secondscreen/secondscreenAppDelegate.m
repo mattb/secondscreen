@@ -22,6 +22,7 @@
     self.viewController = [[secondscreenViewController alloc] initWithNibName:@"secondscreenViewController" bundle:nil]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
     return YES;
 }
 
@@ -62,6 +63,18 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    NSLog(@"Registered for notifications: %@", deviceToken);
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    NSLog(@"Remote notification: %@", userInfo);
+    NSString *url = [userInfo objectForKey:@"url"];
+    if(url != nil) {
+        [self.viewController replaceScreenWith:url];
+    }
 }
 
 @end

@@ -15,4 +15,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
 @property (nonatomic, retain) IBOutlet UIView *configView;
+
+- (void)replaceScreenWith:(NSString *)url;
 @end

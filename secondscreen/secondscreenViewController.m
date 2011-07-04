@@ -39,6 +39,10 @@
     [self.webView addGestureRecognizer:swipeLeft];
 }
 
+- (void)replaceScreenWith:(NSString *)url {
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
+}
+
 - (void) swipeLeftAction:(UILongPressGestureRecognizer *)sender {
     NSLog(@"THIS IS WHERE WE DISMISS THE CONFIG UI");
     configView.hidden = YES;

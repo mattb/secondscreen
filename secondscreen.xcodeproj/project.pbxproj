@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D907684A13C1F371001B2FAF /* secondscreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = secondscreen.entitlements; sourceTree = "<group>"; };
 		D989AEBF13C1D6AA003607B2 /* secondscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D989AEC313C1D6AA003607B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D989AEC513C1D6AA003607B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +116,7 @@
 		D989AEC913C1D6AA003607B2 /* secondscreen */ = {
 			isa = PBXGroup;
 			children = (
+				D907684A13C1F371001B2FAF /* secondscreen.entitlements */,
 				D989AED213C1D6AB003607B2 /* secondscreenAppDelegate.h */,
 				D989AED313C1D6AB003607B2 /* secondscreenAppDelegate.m */,
 				D989AED513C1D6AB003607B2 /* secondscreenViewController.h */,
@@ -365,6 +367,7 @@
 		D989AEF613C1D6AB003607B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = secondscreen/secondscreen.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
 				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
@@ -377,6 +380,7 @@
 		D989AEF713C1D6AB003607B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = secondscreen/secondscreen.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
 				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
