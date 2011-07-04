@@ -40,18 +40,18 @@
 		D989AEC313C1D6AA003607B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D989AEC513C1D6AA003607B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D989AEC713C1D6AA003607B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D989AECB13C1D6AA003607B2 /* secondscreen-Info.plist */ = {isa = PBXFileReference; path = "secondscreen-Info.plist"; sourceTree = "<group>"; };
+		D989AECB13C1D6AA003607B2 /* secondscreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secondscreen-Info.plist"; sourceTree = "<group>"; };
 		D989AECD13C1D6AA003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D989AECF13C1D6AA003607B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D989AED113C1D6AA003607B2 /* secondscreen-Prefix.pch */ = {isa = PBXFileReference; path = "secondscreen-Prefix.pch"; sourceTree = "<group>"; };
-		D989AED213C1D6AB003607B2 /* secondscreenAppDelegate.h */ = {isa = PBXFileReference; path = secondscreenAppDelegate.h; sourceTree = "<group>"; };
+		D989AED113C1D6AA003607B2 /* secondscreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "secondscreen-Prefix.pch"; sourceTree = "<group>"; };
+		D989AED213C1D6AB003607B2 /* secondscreenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondscreenAppDelegate.h; sourceTree = "<group>"; };
 		D989AED313C1D6AB003607B2 /* secondscreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenAppDelegate.m; sourceTree = "<group>"; };
 		D989AED513C1D6AB003607B2 /* secondscreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondscreenViewController.h; sourceTree = "<group>"; };
 		D989AED713C1D6AB003607B2 /* secondscreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenViewController.m; sourceTree = "<group>"; };
 		D989AEDA13C1D6AB003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/secondscreenViewController.xib; sourceTree = "<group>"; };
 		D989AEE113C1D6AB003607B2 /* secondscreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondscreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D989AEE213C1D6AB003607B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D989AEEB13C1D6AB003607B2 /* secondscreenTests-Info.plist */ = {isa = PBXFileReference; path = "secondscreenTests-Info.plist"; sourceTree = "<group>"; };
+		D989AEEB13C1D6AB003607B2 /* secondscreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "secondscreenTests-Info.plist"; sourceTree = "<group>"; };
 		D989AEED13C1D6AB003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D989AEEF13C1D6AB003607B2 /* secondscreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondscreenTests.h; sourceTree = "<group>"; };
 		D989AEF113C1D6AB003607B2 /* secondscreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenTests.m; sourceTree = "<group>"; };
@@ -368,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
 				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
 				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +439,7 @@
 				D989AEF713C1D6AB003607B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D989AEF813C1D6AB003607B2 /* Build configuration list for PBXNativeTarget "secondscreenTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +448,7 @@
 				D989AEFA13C1D6AB003607B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

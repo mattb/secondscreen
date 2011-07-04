@@ -25,8 +25,8 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     self.wantsFullScreenLayout = YES;
     [super viewDidLoad];
-    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.romancehaslivedtoolonguponthisriver.com"]]];
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://pua.spum.org/faves/friends/"]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.romancehaslivedtoolonguponthisriver.com"]]];
+    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://pua.spum.org/faves/friends/"]]];
     //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://dextr.riglondon.com/"]]];
     
     UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRightAction:)];
@@ -40,12 +40,12 @@
 }
 
 - (void) swipeLeftAction:(UILongPressGestureRecognizer *)sender {
-    NSLog(@"THIS IS WHERE WE DISMISS THE UI");
+    NSLog(@"THIS IS WHERE WE DISMISS THE CONFIG UI");
     configView.hidden = YES;
 }
 
 - (void) swipeRightAction:(UILongPressGestureRecognizer *)sender {
-    NSLog(@"THIS IS WHERE WE CALL UP THE UI");
+    NSLog(@"THIS IS WHERE WE CALL UP THE CONFIG UI");
     configView.hidden = NO;
 }
 
