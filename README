@@ -1,3 +1,5 @@
 WORK IN PROGRESS
 
 A fullscreen iPad container for second-screen sites like http://romancehaslivedtoolonguponthisriver.com
+
+Depends on ASIHTTPRequest as a git submodule.
