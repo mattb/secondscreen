@@ -279,7 +279,7 @@
 		D989AEB613C1D6AA003607B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = Nokia;
+				ORGANIZATIONNAME = "Hackdiary Ltd";
 			};
 			buildConfigurationList = D989AEB913C1D6AA003607B2 /* Build configuration list for PBXProject "secondscreen" */;
 			compatibilityVersion = "Xcode 3.2";
