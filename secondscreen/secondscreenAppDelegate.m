@@ -10,6 +10,8 @@
 
 #import "secondscreenViewController.h"
 
+#import "ASIHTTPRequest.h"
+
 @implementation secondscreenAppDelegate
 
 @synthesize window = _window;
@@ -66,7 +68,10 @@
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    NSLog(@"Registered for notifications: %@", deviceToken);
+    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.hackdiary.com/secondscreen?device=%@", token]];
+    [[ASIHTTPRequest requestWithURL:url] startAsynchronous];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
