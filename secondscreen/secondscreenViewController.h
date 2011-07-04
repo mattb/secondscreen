@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface secondscreenViewController : UIViewController
+@interface secondscreenViewController : UIViewController <UIGestureRecognizerDelegate> {
+    UIWebView *webView;
+    UIView *configView;
+}
 
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) IBOutlet UIView *configView;
 @end
