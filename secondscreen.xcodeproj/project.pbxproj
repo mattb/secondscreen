@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D989AEC413C1D6AA003607B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC313C1D6AA003607B2 /* UIKit.framework */; };
+		D989AEC613C1D6AA003607B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC513C1D6AA003607B2 /* Foundation.framework */; };
+		D989AEC813C1D6AA003607B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC713C1D6AA003607B2 /* CoreGraphics.framework */; };
+		D989AECE13C1D6AA003607B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D989AECC13C1D6AA003607B2 /* InfoPlist.strings */; };
+		D989AED013C1D6AA003607B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D989AECF13C1D6AA003607B2 /* main.m */; };
+		D989AED413C1D6AB003607B2 /* secondscreenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D989AED313C1D6AB003607B2 /* secondscreenAppDelegate.m */; };
+		D989AED613C1D6AB003607B2 /* secondscreenViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = D989AED513C1D6AB003607B2 /* secondscreenViewController.h */; };
+		D989AED813C1D6AB003607B2 /* secondscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D989AED713C1D6AB003607B2 /* secondscreenViewController.m */; };
+		D989AEDB13C1D6AB003607B2 /* secondscreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D989AED913C1D6AB003607B2 /* secondscreenViewController.xib */; };
+		D989AEE313C1D6AB003607B2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEE213C1D6AB003607B2 /* SenTestingKit.framework */; };
+		D989AEE413C1D6AB003607B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC313C1D6AA003607B2 /* UIKit.framework */; };
+		D989AEE513C1D6AB003607B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC513C1D6AA003607B2 /* Foundation.framework */; };
+		D989AEE613C1D6AB003607B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D989AEC713C1D6AA003607B2 /* CoreGraphics.framework */; };
+		D989AEEE13C1D6AB003607B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D989AEEC13C1D6AB003607B2 /* InfoPlist.strings */; };
+		D989AEF013C1D6AB003607B2 /* secondscreenTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D989AEEF13C1D6AB003607B2 /* secondscreenTests.h */; };
+		D989AEF213C1D6AB003607B2 /* secondscreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D989AEF113C1D6AB003607B2 /* secondscreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D989AEE713C1D6AB003607B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D989AEB613C1D6AA003607B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D989AEBE13C1D6AA003607B2;
+			remoteInfo = secondscreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D989AEBF13C1D6AA003607B2 /* secondscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D989AEC313C1D6AA003607B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D989AEC513C1D6AA003607B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D989AEC713C1D6AA003607B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D989AECB13C1D6AA003607B2 /* secondscreen-Info.plist */ = {isa = PBXFileReference; path = "secondscreen-Info.plist"; sourceTree = "<group>"; };
+		D989AECD13C1D6AA003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D989AECF13C1D6AA003607B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D989AED113C1D6AA003607B2 /* secondscreen-Prefix.pch */ = {isa = PBXFileReference; path = "secondscreen-Prefix.pch"; sourceTree = "<group>"; };
+		D989AED213C1D6AB003607B2 /* secondscreenAppDelegate.h */ = {isa = PBXFileReference; path = secondscreenAppDelegate.h; sourceTree = "<group>"; };
+		D989AED313C1D6AB003607B2 /* secondscreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenAppDelegate.m; sourceTree = "<group>"; };
+		D989AED513C1D6AB003607B2 /* secondscreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondscreenViewController.h; sourceTree = "<group>"; };
+		D989AED713C1D6AB003607B2 /* secondscreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenViewController.m; sourceTree = "<group>"; };
+		D989AEDA13C1D6AB003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/secondscreenViewController.xib; sourceTree = "<group>"; };
+		D989AEE113C1D6AB003607B2 /* secondscreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondscreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D989AEE213C1D6AB003607B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D989AEEB13C1D6AB003607B2 /* secondscreenTests-Info.plist */ = {isa = PBXFileReference; path = "secondscreenTests-Info.plist"; sourceTree = "<group>"; };
+		D989AEED13C1D6AB003607B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D989AEEF13C1D6AB003607B2 /* secondscreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondscreenTests.h; sourceTree = "<group>"; };
+		D989AEF113C1D6AB003607B2 /* secondscreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondscreenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D989AEBC13C1D6AA003607B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AEC413C1D6AA003607B2 /* UIKit.framework in Frameworks */,
+				D989AEC613C1D6AA003607B2 /* Foundation.framework in Frameworks */,
+				D989AEC813C1D6AA003607B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D989AEDD13C1D6AB003607B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AEE313C1D6AB003607B2 /* SenTestingKit.framework in Frameworks */,
+				D989AEE413C1D6AB003607B2 /* UIKit.framework in Frameworks */,
+				D989AEE513C1D6AB003607B2 /* Foundation.framework in Frameworks */,
+				D989AEE613C1D6AB003607B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D989AEB413C1D6AA003607B2 = {
+			isa = PBXGroup;
+			children = (
+				D989AEC913C1D6AA003607B2 /* secondscreen */,
+				D989AEE913C1D6AB003607B2 /* secondscreenTests */,
+				D989AEC213C1D6AA003607B2 /* Frameworks */,
+				D989AEC013C1D6AA003607B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D989AEC013C1D6AA003607B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D989AEBF13C1D6AA003607B2 /* secondscreen.app */,
+				D989AEE113C1D6AB003607B2 /* secondscreenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D989AEC213C1D6AA003607B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D989AEC313C1D6AA003607B2 /* UIKit.framework */,
+				D989AEC513C1D6AA003607B2 /* Foundation.framework */,
+				D989AEC713C1D6AA003607B2 /* CoreGraphics.framework */,
+				D989AEE213C1D6AB003607B2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D989AEC913C1D6AA003607B2 /* secondscreen */ = {
+			isa = PBXGroup;
+			children = (
+				D989AED213C1D6AB003607B2 /* secondscreenAppDelegate.h */,
+				D989AED313C1D6AB003607B2 /* secondscreenAppDelegate.m */,
+				D989AED513C1D6AB003607B2 /* secondscreenViewController.h */,
+				D989AED713C1D6AB003607B2 /* secondscreenViewController.m */,
+				D989AED913C1D6AB003607B2 /* secondscreenViewController.xib */,
+				D989AECA13C1D6AA003607B2 /* Supporting Files */,
+			);
+			path = secondscreen;
+			sourceTree = "<group>";
+		};
+		D989AECA13C1D6AA003607B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D989AECB13C1D6AA003607B2 /* secondscreen-Info.plist */,
+				D989AECC13C1D6AA003607B2 /* InfoPlist.strings */,
+				D989AECF13C1D6AA003607B2 /* main.m */,
+				D989AED113C1D6AA003607B2 /* secondscreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D989AEE913C1D6AB003607B2 /* secondscreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D989AEEF13C1D6AB003607B2 /* secondscreenTests.h */,
+				D989AEF113C1D6AB003607B2 /* secondscreenTests.m */,
+				D989AEEA13C1D6AB003607B2 /* Supporting Files */,
+			);
+			path = secondscreenTests;
+			sourceTree = "<group>";
+		};
+		D989AEEA13C1D6AB003607B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D989AEEB13C1D6AB003607B2 /* secondscreenTests-Info.plist */,
+				D989AEEC13C1D6AB003607B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D989AEBE13C1D6AA003607B2 /* secondscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D989AEF513C1D6AB003607B2 /* Build configuration list for PBXNativeTarget "secondscreen" */;
+			buildPhases = (
+				D989AEBB13C1D6AA003607B2 /* Sources */,
+				D989AEBC13C1D6AA003607B2 /* Frameworks */,
+				D989AEBD13C1D6AA003607B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secondscreen;
+			productName = secondscreen;
+			productReference = D989AEBF13C1D6AA003607B2 /* secondscreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D989AEE013C1D6AB003607B2 /* secondscreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D989AEF813C1D6AB003607B2 /* Build configuration list for PBXNativeTarget "secondscreenTests" */;
+			buildPhases = (
+				D989AEDC13C1D6AB003607B2 /* Sources */,
+				D989AEDD13C1D6AB003607B2 /* Frameworks */,
+				D989AEDE13C1D6AB003607B2 /* Resources */,
+				D989AEDF13C1D6AB003607B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D989AEE813C1D6AB003607B2 /* PBXTargetDependency */,
+			);
+			name = secondscreenTests;
+			productName = secondscreenTests;
+			productReference = D989AEE113C1D6AB003607B2 /* secondscreenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D989AEB613C1D6AA003607B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nokia;
+			};
+			buildConfigurationList = D989AEB913C1D6AA003607B2 /* Build configuration list for PBXProject "secondscreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D989AEB413C1D6AA003607B2;
+			productRefGroup = D989AEC013C1D6AA003607B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D989AEBE13C1D6AA003607B2 /* secondscreen */,
+				D989AEE013C1D6AB003607B2 /* secondscreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D989AEBD13C1D6AA003607B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AECE13C1D6AA003607B2 /* InfoPlist.strings in Resources */,
+				D989AED613C1D6AB003607B2 /* secondscreenViewController.h in Resources */,
+				D989AEDB13C1D6AB003607B2 /* secondscreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D989AEDE13C1D6AB003607B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AEEE13C1D6AB003607B2 /* InfoPlist.strings in Resources */,
+				D989AEF013C1D6AB003607B2 /* secondscreenTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D989AEDF13C1D6AB003607B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D989AEBB13C1D6AA003607B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AED013C1D6AA003607B2 /* main.m in Sources */,
+				D989AED413C1D6AB003607B2 /* secondscreenAppDelegate.m in Sources */,
+				D989AED813C1D6AB003607B2 /* secondscreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D989AEDC13C1D6AB003607B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989AEF213C1D6AB003607B2 /* secondscreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D989AEE813C1D6AB003607B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D989AEBE13C1D6AA003607B2 /* secondscreen */;
+			targetProxy = D989AEE713C1D6AB003607B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D989AECC13C1D6AA003607B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D989AECD13C1D6AA003607B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D989AED913C1D6AB003607B2 /* secondscreenViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D989AEDA13C1D6AB003607B2 /* en */,
+			);
+			name = secondscreenViewController.xib;
+			sourceTree = "<group>";
+		};
+		D989AEEC13C1D6AB003607B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D989AEED13C1D6AB003607B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D989AEF313C1D6AB003607B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D989AEF413C1D6AB003607B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D989AEF613C1D6AB003607B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
+				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D989AEF713C1D6AB003607B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
+				INFOPLIST_FILE = "secondscreen/secondscreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D989AEF913C1D6AB003607B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secondscreen.app/secondscreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
+				INFOPLIST_FILE = "secondscreenTests/secondscreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D989AEFA13C1D6AB003607B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/secondscreen.app/secondscreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "secondscreen/secondscreen-Prefix.pch";
+				INFOPLIST_FILE = "secondscreenTests/secondscreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D989AEB913C1D6AA003607B2 /* Build configuration list for PBXProject "secondscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D989AEF313C1D6AB003607B2 /* Debug */,
+				D989AEF413C1D6AB003607B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D989AEF513C1D6AB003607B2 /* Build configuration list for PBXNativeTarget "secondscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D989AEF613C1D6AB003607B2 /* Debug */,
+				D989AEF713C1D6AB003607B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D989AEF813C1D6AB003607B2 /* Build configuration list for PBXNativeTarget "secondscreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D989AEF913C1D6AB003607B2 /* Debug */,
+				D989AEFA13C1D6AB003607B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D989AEB613C1D6AA003607B2 /* Project object */;
+}
